@@ -7,6 +7,7 @@ public class c4 {
         Scanner charater = new Scanner(System.in);
         System.out.println("Please Enter any Charecter : ");
         char ch = charater.next().charAt(0);
-        System.out.println("You Entered : " + ch);
+        int Ascii = ch;
+        System.out.println(ch + " : " + Ascii);
     }
 }
